@@ -1,0 +1,17 @@
+body{
+	background-image: url("https://uatastra.thomascook.in/images/currency-img.jpg" );
+	
+}
+
+
+
+#des {
+    margin: auto;
+    width: 60%;
+    border: 0px solid ;
+    padding: 20px;
+    height: 250px;
+    background: lightgrey; 
+    text-align: center;
+
+}

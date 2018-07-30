@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Currency converter</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+     <nav class="navbar navbar-inverse">
+     <div class="container">
+        <div class="navbar nav-header">
+            <ul class="navbar-brand">FOREX</ul>
+        </div>
+     </div>
+     </nav>
+	<div id="des">
+	<h1>Select the base currency</h1>
+	<div class="dropdown">
+ 
+  <label for="base" >Currency</label>    
+  <select name="base" id="baseCurrency">
+                        <option value="AUD" > AUD </option>  
+						<option value="BGN" > BGN </option>  
+						<option value="BRL" > BRL </option>  
+						<option value="CAD" > CAD </option>  
+						<option value="CHF" > CHF </option>  
+						<option value="CNY" > CNY </option>  
+						<option value="CZK" > CZK </option>  
+						<option value="DKK" > DKK </option>  
+						<option value="EUR" > EUR </option>  
+						<option value="GBP" > GBP </option>  
+						<option value="HKD" > HKD </option>  
+						<option value="HRK" > HRK </option>  
+						<option value="HUF" > HUF </option>  
+						<option value="IDR" > IDR </option>  
+						<option value="ILS" > ILS </option>  
+						<option value="INR" > INR </option>  
+						<option value="ISK" > ISK </option>  
+						<option value="JPY" > JPY </option>  
+						<option value="KRW" > KRW </option>  
+						<option value="MXN" > MXN </option>  
+						<option value="MYR" > MYR </option>  
+						<option value="NOK" > NOK </option>  
+						<option value="NZD" > NZD </option>  
+						<option value="PHP" > PHP </option>  
+						<option value="PLN" > PLN </option>  
+						<option value="RON" > RON </option>  
+						<option value="RUB" > RUB </option>  
+						<option value="SEK" > SEK </option>  
+						<option value="SGD" > SGD </option>  
+						<option value="THB" > THB </option>  
+						<option value="TRY" > TRY </option>  
+						<option value="USD" > USD </option>  
+						<option value="ZAR" > ZAR </option>  
+</select>
+ <button class="btn btn-info" onclick="loadCurrencies()" >Find rates</button>
+</div>
+		
+	</div>
+	<div id="message">
+
+
+	</div>
+	<div  class="row" id="rates">
+
+	  </div>
+	  
+	<script src="currency.js"></script>
+
+</body>
+</html>
